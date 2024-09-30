@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(to bottom, #e0e0e0 0%, #ffffff 50%);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    height: 40px;
+    margin-right: 10px; 
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.login-btn .btn-primary {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    min-height: 50vh;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #4285f4;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #4285f4;
+    color: #4285f4;
+}
+
+.illustration img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.shape-demo {
+    display: flex;
+    align-items: center; 
+    height: 400px;
+    background-color: white;
+    justify-content: center; 
+}
+
+.circle-label {
+    margin-right: 20px; 
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+    border-radius: 50%;
+}
+
+
+.circle p {
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #4285f4;
+}
+
+.footer-logo svg {
+    margin-top: 10px;
+}
